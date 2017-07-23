@@ -16,7 +16,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         //setting font of the text
 
-        text.setFont(new Font(45));
+        text.setFont(new Font(50));
 
         //setting the position of the text
 
