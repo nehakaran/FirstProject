@@ -19,6 +19,7 @@ function draw() {
  
  strokeWeight(4);
  stroke(255, 100, 150);
+<<<<<<< HEAD
  let secAngle = map(sec, 0, 60, 0, 360);
  arc(0, 0, 300, 300, 0, 360, secAngle);
  
@@ -48,6 +49,10 @@ function draw() {
  line(0, 0, 50, 0);
  pop();
  
+=======
+ let end = map(sec, 0, 60, 0, 360);
+ arc(200, 200, 300, 300, 0, 360, end);
+>>>>>>> 551f582d04dd51e37c569870d64c64b6404962b8
  
 // fill(255);
  //noStroke();
